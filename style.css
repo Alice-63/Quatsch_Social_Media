@@ -54,7 +54,7 @@ header input
     background-color: var(--secondary);
     border: none;
     outline: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .logo-search h1
@@ -73,9 +73,18 @@ header input
 
 .menu .menu-item
 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--secondary);
+    /* width: 50px;
+    height: 50px; */
+    /* border-radius: 50%; */
+    background-color:#F0F2F5;
     margin-right: 20px;
+    background-color: var(--primary);
+}
+.menu .menu-item i
+{
+    font-size: 40px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
