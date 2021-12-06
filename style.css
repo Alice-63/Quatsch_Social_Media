@@ -116,6 +116,7 @@ main
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
 }
 .wrapper
 {
@@ -136,7 +137,12 @@ section
 .profil
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 210px;
+    height: 226px;
+    background-color: white;
 }
 
 .profil-img
@@ -145,4 +151,15 @@ section
     height: 100px;
     border-radius: 50%;
     background-color: var(--secondary);
+}
+.trends
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 210px;
+    height: 566px;
+    margin-top: 10px;
 }
