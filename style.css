@@ -110,7 +110,13 @@ header input:hover
 }
 
 /* //////////////////  MAIN //////////////////// */
-
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .wrapper
 {
     max-width: 1000px;
@@ -120,6 +126,7 @@ header input:hover
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     
 }
 .profil
