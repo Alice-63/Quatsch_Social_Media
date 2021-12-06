@@ -14,6 +14,7 @@ body{
     background-color: #F0F2F5;
     width: 100%;
 }
+/* //////////////////////HEADER////////////////////// */
 
 header{
     width: 100%;
@@ -57,9 +58,12 @@ header input
     font-size: 20px;
 }
 
-.logo-search h1
+.logo-search img
 {
-    color: white;
+    width: 40px;
+    height: 40px;
+    color: var(--primary);
+    border-radius: 10px;
 }
 
 .menu
@@ -83,8 +87,13 @@ header input
 .menu .menu-item i
 {
     font-size: 35px;
-  color: white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu .menu-item i:hover
+{
+    
 }
