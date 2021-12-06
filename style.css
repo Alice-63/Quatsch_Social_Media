@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+
+:root{
+    --primary:#0A66C2;
+    --secondary:#00A0DC;
+    --accent:#FFC624;
+    --text:rgb(87, 87, 87);
+}
+body{
+    margin: 0;
+    background-color: #F0F2F5;
+    width: 100%;
+}
