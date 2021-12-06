@@ -115,3 +115,23 @@ header input:hover
 {
     max-width: 1440px;
 }
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.profil
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.profil-img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+}
