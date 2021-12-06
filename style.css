@@ -163,3 +163,27 @@ section
     height: 566px;
     margin-top: 10px;
 }
+
+
+.main-menu
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 605px;
+    height: 27px;
+    border-radius: 10px;
+}
+
+.post-container
+{
+    width: 549px;
+    height: 120px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+   
+    align-items:flex-start;
+    flex-direction: column;
+}
