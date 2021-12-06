@@ -33,8 +33,15 @@ header input
     border: none;
     outline: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
+header input:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+    color: var(--text);
+}
 .logo-search
 {
     display: flex;
@@ -58,12 +65,15 @@ header input
     font-size: 20px;
 }
 
+
+
 .logo-search img
 {
     width: 40px;
     height: 40px;
     color: var(--primary);
     border-radius: 10px;
+    
 }
 
 .menu
@@ -95,5 +105,8 @@ header input
 
 .menu .menu-item i:hover
 {
-    
+    color: var(--secondary);
+    cursor: pointer;
 }
+
+/* //////////////////  MAIN //////////////////// */
