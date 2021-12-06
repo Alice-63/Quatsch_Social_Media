@@ -110,3 +110,8 @@ header input:hover
 }
 
 /* //////////////////  MAIN //////////////////// */
+
+.wrapper
+{
+    max-width: 1440px;
+}
