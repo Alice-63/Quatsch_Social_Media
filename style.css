@@ -183,7 +183,7 @@ section
     background-color: white;
     margin:10px 0 10px 0;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items:flex-start;
     flex-direction: column;
 }
