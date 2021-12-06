@@ -44,3 +44,13 @@ header{
     outline: none;
     font-size: 25px;
 }
+
+.logo h1
+{
+    color: white;
+}
+
+.menu
+{
+    width: 50%;
+}
