@@ -129,6 +129,10 @@ main
    
     
 }
+section
+{
+    margin-right: 50px;
+}
 .profil
 {
     display: flex;
