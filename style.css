@@ -27,16 +27,17 @@ header{
 .logo-search
 {
     display: flex;
+    justify-content: space-between;
     width: 50%;
 }
 
-.logo
+.logo-search
 {
     display: flex;
-    justify-content: space-between;
+    
 }
 
-.logo input
+.logo-search input
 {
     border-radius: 15px;
     background-color: var(--secondary);
@@ -45,7 +46,7 @@ header{
     font-size: 25px;
 }
 
-.logo h1
+.logo-search h1
 {
     color: white;
 }
@@ -53,4 +54,12 @@ header{
 .menu
 {
     width: 50%;
+}
+
+.menu .menu-item
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary);
 }
