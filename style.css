@@ -24,11 +24,22 @@ header{
     align-items: center;
 }
 
+header input
+{
+    padding: 7px;
+    margin-right: 20px;
+    background-color: var(--accent);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
 .logo-search
 {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    margin-left: 10px;
 }
 
 .logo-search
@@ -54,6 +65,10 @@ header{
 .menu
 {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .menu .menu-item
@@ -62,4 +77,5 @@ header{
     height: 50px;
     border-radius: 50%;
     background-color: var(--secondary);
+    margin-right: 20px;
 }
