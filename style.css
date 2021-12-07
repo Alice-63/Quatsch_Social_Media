@@ -143,7 +143,8 @@ section
     width: 210px;
     height: 226px;
     background-color: white;
-    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+    border-radius: 3px;
 }
 
 }
@@ -165,10 +166,16 @@ section
     width: 210px;
     height: 566px;
     margin-top: 10px;
-    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+    border-radius: 3px;
 }
 
-
+.mid
+{
+    width: 602px;
+    height: 800px;
+   
+}
 .main-menu
 {
     display: flex;
@@ -178,7 +185,8 @@ section
     width: 605px;
     height: 27px;
     border-radius: 10px;
-    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+    border-radius: 3px;
 }
 
 .write-something
@@ -191,5 +199,14 @@ section
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
-    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+}
+
+.events
+{
+    width: 210px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+    border-radius: 3px;
 }
