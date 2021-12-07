@@ -263,7 +263,11 @@ section
 
 .post-user
 {
+    width: 90%;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
     
 }
 .post-user .user-img
@@ -273,7 +277,15 @@ section
     border-radius: 50%;
     background-color: var(--secondary);
 }
-
+.post-user-left
+{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
 /* Right */
 .events
 {
