@@ -135,6 +135,7 @@ section
 {
     margin-right: 50px;
 }
+/* Left */
 .profil
 {
     display: flex;
@@ -170,7 +171,7 @@ section
     box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
     border-radius: 3px;
 }
-
+/* Middle */
 .mid
 {
     width: 602px;
@@ -246,6 +247,34 @@ section
     justify-content: flex-end;
     align-items: center;
 }
+/* Post */
+.post
+{
+    width: 549px;
+    height: 177px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
+}
+
+.post-user
+{
+    display: flex;
+    
+}
+.post-user .user-img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+}
+
+/* Right */
 .events
 {
     width: 210px;
