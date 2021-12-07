@@ -37,11 +37,11 @@ header input
     font-weight: bold;
 }
 
-header input:hover
+header>input:hover
 {
     cursor: pointer;
-    opacity: 0.9;
-    color: var(--text);
+    background-color: #f8bf21;;
+   
 }
 .logo-search
 {
@@ -187,7 +187,7 @@ section
     height: 27px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .post-container
 {
@@ -237,7 +237,7 @@ section
 .write-something button:hover
 {
     cursor: pointer;
-    color: #fac840;
+    background-color:  #f8bf21;
 }
 .share
 {
