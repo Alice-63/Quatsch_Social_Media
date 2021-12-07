@@ -174,20 +174,32 @@ section
     border: 2px solid var(--secondary);
     border-radius: 50%;
 }
-.trends
+.profil div
 {
-    display: flex;
-    justify-content: center;
-    /* align-items: flex-start; */
-    /* flex-direction: column; */
-    background-color: white;
-    width: 210px;
-    height: 566px;
-    margin-top: 20px;
-    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
-    border-radius: 3px;
-    padding-top: 10px;
+    margin-bottom: 10px;
 }
+
+.profil button
+{
+    padding: 7px 20px;
+    background-color: var(--accent);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 65%;
+    width: 80%;
+    font-size: 1em;
+    
+}
+
+.profil>button:hover
+{
+    cursor: pointer;
+    background-color: #f8bf21;;
+   
+}
+
 /* Middle */
 .mid
 {
