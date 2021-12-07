@@ -293,11 +293,18 @@ section
     width: 389px;
     height: 79px;
 }
-.post-content textarea
+.post-footer
 {
-    resize: none;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.post-footer i:hover{
+    color: var(--primary);
+    font-weight: bold;
+    cursor: pointer;;
+   }
 
 
 
