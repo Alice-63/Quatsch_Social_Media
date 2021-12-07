@@ -234,10 +234,17 @@ section
     border-radius: 5px;
     font-weight: bold;
 }
+.write-something button:hover
+{
+    cursor: pointer;
+    color: #fac840;
+}
 .share
 {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .events
 {
