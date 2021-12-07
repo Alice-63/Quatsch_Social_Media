@@ -148,8 +148,8 @@ section
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 210px;
-    height: 400px;
+    width: 100%;
+    height: 70%;
     background-color: white;
     box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
     border-radius: 3px;
