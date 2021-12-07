@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Segoe UI';
 }
 
 :root{
@@ -147,7 +148,7 @@ section
     border-radius: 3px;
 }
 
-}
+
 
 .profil-img
 {
@@ -193,6 +194,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .write-something
 {
@@ -200,13 +202,43 @@ section
     height: 120px;
     background-color: white;
     margin:10px 0 10px 0;
+    padding: 0 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
     box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
 }
-
+.write-something h2
+{
+    color: var(--primary);
+}
+.write-something input
+{
+    width: 70%;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #F0F2F5;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.write-something button
+{
+    padding: 7px;
+    margin-right: 20px;
+    background-color: var(--accent);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.share
+{
+    display: flex;
+    justify-content: flex-end;
+}
 .events
 {
     width: 210px;
