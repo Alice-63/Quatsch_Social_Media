@@ -46,7 +46,7 @@ header input:hover
 {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     margin-left: 10px;
 }
 
@@ -78,7 +78,7 @@ header input:hover
 
 .menu
 {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,6 +143,9 @@ section
     width: 210px;
     height: 226px;
     background-color: white;
+    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
+}
+
 }
 
 .profil-img
@@ -162,6 +165,7 @@ section
     width: 210px;
     height: 566px;
     margin-top: 10px;
+    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
 }
 
 
@@ -174,6 +178,7 @@ section
     width: 605px;
     height: 27px;
     border-radius: 10px;
+    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
 }
 
 .write-something
@@ -186,4 +191,5 @@ section
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
+    box-shadow: 1px 1px 20px -2px rgba(0,0,0,0.43);
 }
