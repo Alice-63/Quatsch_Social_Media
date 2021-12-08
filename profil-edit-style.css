@@ -211,7 +211,9 @@ section
     height: 40px;
     border-radius: 10px;
     border: none;
-    outline: var(--secondary);
+    background-color: #F0F2F5;
+    margin-bottom: 15px;
+    
 }
 
 
