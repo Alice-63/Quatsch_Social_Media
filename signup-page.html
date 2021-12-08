@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quatsch</title>
-    <link rel="stylesheet" href="profil-edit-style.css">
+    <link rel="stylesheet" href="login-page-style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
 
 </head>
@@ -21,34 +21,37 @@
             <div class="menu-item"><i class="fas fa-ellipsis-h"></i></div>
             <div class="menu-item"></div>
         </div>
-        <form action="login-page.html">
+        <form action="">
             <input type="submit" value="LOGIN">
         </form>
    </header>
     <main>
         <div class="wrapper container">
+            
             <section>
-                <div class="profil" >
-                    <div class="profil-img"><img src="Q.png" alt=""></div>
+         
+                <div class="post-container">
                  
+                    <div class="post">
+                        <h2>Sign up</h2><br>
                         <form action="">
-                            <label for="uname">User name:</label>
+                            <label for="uname"><b>User name</b></label>
                             <input type="text" id="fname" name="fname" >
-                            <label for="email">E-mail:</label>
+                            <label for="email"><b>E-mail</b></label>
                             <input type="email" id="lname" name="email">
-                            <label for="passwort">Passwort:</label>
+                            <label for="passwort"><b>Passwort</b></label>
                             <input type="text" id="passwort" name="passwort">
-                            <input type="submit" value="Submit" class="update">
+                            <input type="submit" value="Sign up" class="login">
+                            <br>
+                            <span><a href="login-page.html">Login</a></span>
+                            <br>
                         </form> 
+                    </div>
+                   
                 </div>
-               
+            
             </section>
- 
-            <section>
-                <div class="events">
-                    <h2>Events</h2>
-                </div>
-            </section>
+          
         </div>
         
     </main>
