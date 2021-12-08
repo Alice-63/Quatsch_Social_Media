@@ -195,82 +195,11 @@ section
    
    
 }
-.main-menu
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    width: 605px;
-    height: 27px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
-    border-radius: 10px;
-}
-.post-container
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.write-something
-{
-    width: 549px;
-    height: 120px;
-    background-color: white;
-    margin:10px 0 10px 0;
-    padding: 0 15px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    flex-direction: column;
-    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
-}
-.write-something h2
-{
-    color: var(--primary);
-    padding-left: 7px;
-    margin-bottom: 5px;
-}
-.write-something input
-{
-    width: 70%;
-    margin: 5px;
-    border-radius: 15px;
-    background-color: #F0F2F5;
-    border: none;
-    outline: none;
-    font-size: 20px;
-}
-.write-something button
-{
-    padding: 7px;
-    margin-right: 20px;
-    background-color: var(--accent);
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.write-something button:hover
-{
-    cursor: pointer;
-    background-color:  #f8bf21;
-}
-.share
-{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-/* Post */
+
 .post
 {
     width: 549px;
-    height: 177px;
+    height: 277px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -281,61 +210,6 @@ section
     margin-top: 15px;
 }
 
-.post-user
-{
-    width: 90%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10px;
-    
-    
-}
-.post-user .user-img
-{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: var(--secondary);
-}
-.user-img img
-{
-    width: 100%;
-    border: 1px solid var(--secondary);
-    border-radius: 50%;
-}
-.post-user-left
-{
-   
-    display: flex;
-    justify-content: flex-end;
-    align-items:flex-start;
-    flex-direction: column;
-    margin-left: 10px;
-}
-
-.post-content
-{
-    width: 389px;
-    height: 79px;
-}
-.post-footer
-{
-    width: 70%;
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-}
-
-.post-footer i:hover{
-    color: var(--primary);
-    font-weight: bold;
-    cursor: pointer;
-   }
-   .post-footer .like
-   {
-       margin-right: 20px;
-   }
 
 
 
@@ -343,19 +217,6 @@ section
 
 
 
-
-/* Right */
-.events
-{
-    width: 210px;
-    height: 800px;
-    background-color: white;
-    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.43);
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
 
 /* ///////////////// Footer //////////////////// */
 
