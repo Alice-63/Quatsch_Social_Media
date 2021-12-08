@@ -174,12 +174,9 @@ section
     border: 2px solid var(--secondary);
     border-radius: 50%;
 }
-.profil div
-{
-    margin-bottom: 10px;
-}
 
-.profil button
+
+.profil .update
 {
     padding: 7px 20px;
     background-color: var(--accent);
@@ -187,17 +184,34 @@ section
     outline: none;
     border-radius: 5px;
     font-weight: bold;
-    margin-top: 65%;
+    margin-top: 25%;
     width: 80%;
     font-size: 1em;
     
 }
 
-.profil>button:hover
+.profil .update:hover
 {
     cursor: pointer;
     background-color: #f8bf21;;
    
+}
+
+.profil form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+.profil form input
+{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: var(--secondary);
 }
 
 
