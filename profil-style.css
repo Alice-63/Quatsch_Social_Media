@@ -32,7 +32,7 @@ header{
     align-items: center;
 }
 
-header input
+header form input
 {
     padding: 7px;
     margin-right: 20px;
@@ -43,7 +43,7 @@ header input
     font-weight: bold;
 }
 
-header>input:hover
+header>form>input:hover
 {
     cursor: pointer;
     background-color: #f8bf21;;
